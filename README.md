@@ -1,0 +1,2 @@
+# TRAINING-FIN
+training phase
