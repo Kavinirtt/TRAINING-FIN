@@ -1,0 +1,11 @@
+x=[
+    {date:5},
+    {date:12},
+    {date:15},
+    {date:25},
+    {date:10},
+    {date:20},
+    {date:6},    
+    ]
+    y=x.filter(e=>e.date<14)
+    console.log(y)

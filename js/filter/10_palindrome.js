@@ -1,0 +1,9 @@
+x=[
+    {name:'malayalam'},
+    {name:'nivin'},
+    {name:'shanmugam'},
+    {name:'loahit'},
+    {name:'amma'}
+    ]
+    y=x.filter(e=>e.name==e.name.split('').reverse().join(''))
+    console.log(y)
