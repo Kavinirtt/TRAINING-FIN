@@ -6,4 +6,6 @@ n=[
     {vegetables:"apple",   quantity:5,price:100}
 ]
 m=n.reduce((a,b)=> a+(b.price*b.quantity),0)
-console.log(m);
+console.log(m)
+
+
