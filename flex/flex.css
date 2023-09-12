@@ -1,0 +1,221 @@
+body{
+    background-color: rgb(179, 214, 220);
+}
+hr{
+    border: 5px solid rgb(250, 248, 248); 
+}
+h2{
+    margin: 40px;
+    font-size: 30px;
+    font-style: italic;
+    color:rgb(12, 13, 5);
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.boxes{
+    margin:10px;
+    background-color: gold;
+    border: 5px solid black;
+    height: 150px;
+    width:150px;
+}
+.Flex-direction{
+    background-color: rgb(8, 208, 243);
+    border:10px solid white;
+    margin:20px;
+}
+
+    .row{
+        display: flex;
+        flex-direction: row;
+    }
+    .column{
+        display: flex;
+        flex-direction: column; 
+    }
+    .row-reverse{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .column-reverse{
+        display: flex;
+        flex-direction: column-reverse; 
+    }
+.Justify-Content{
+    background-color: rgb(228, 153, 215);
+    border:10px solid white;
+    margin:20px;
+}
+    .Flex-Start{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .Flex-End{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .Flex-Center{
+        display: flex;
+        justify-content: center;
+    }
+    .Flex-Space-Between{
+        display: flex;
+        justify-content:space-between;
+    }
+    .Flex-Space-Around{
+        display: flex;
+        justify-content: space-around;
+    }
+    .Flex-Space-Evenly{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+
+    .boxes1{
+    margin:10px;
+    background-color: gold;
+    border: 5px solid black;
+    height: 170px;
+    width:150px;
+}
+.boxes2{
+    margin:10px;
+    background-color: gold;
+    border: 5px solid black;
+    height: 200px;
+    width:150px;
+}
+.boxes3{
+    margin:10px;
+    background-color: gold;
+    border: 5px solid black;
+    height: 250px;
+    width:150px;
+}
+.boxes4{
+    margin:10px;
+    background-color: gold;
+    border: 5px solid black;
+    height: 150px;
+    width:150px;
+}
+.Align-Items{
+    background-color: rgb(235, 107, 107);
+    border:10px solid white;
+    margin:20px;
+}
+    .Align-Start{
+        display: flex;
+        align-items:flex-start;
+    }
+    .Align-End{
+        display: flex;
+        align-items: flex-end;
+    }
+    .Align-Center{
+        display: flex;
+        align-items: center;
+    }
+    .boxes11{
+    margin:10px;
+    background-color: gold;
+    border: 5px solid black;
+    width: 150px;
+    }
+    .Align-Stretch{
+        display: flex;
+        align-items:stretch;
+    }
+    .Align-Baseline{
+        display: flex;
+        align-items: baseline;
+    }
+.gaps{
+    background-color: rgb(130, 233, 123);
+    border:10px solid white;
+    margin:20px;
+}
+    .gap{
+        display: flex;
+        flex-wrap: wrap;
+        gap:200px;
+    }
+    .row-gap{
+        display: flex;
+        flex-wrap: wrap;
+        gap:250px;
+        row-gap:200px; 
+    }
+    .column-gap{
+        display: flex;
+        flex-wrap: wrap;
+        gap:250px;
+        column-gap: 350px;
+    }
+
+.boxes1a{
+    margin:10px;
+    background-color: gold;
+    border: 5px solid black;
+    height: 170px;
+    width:380px;
+}
+.boxes2a{
+    margin:10px;
+    background-color: gold;
+    border: 5px solid black;
+    height: 200px;
+    width:350px;
+}
+.boxes3a{
+    margin:10px;
+    background-color: gold;
+    border: 5px solid black;
+    height: 250px;
+    width:400px;
+}
+.boxes4a{
+    margin:10px;
+    background-color: gold;
+    border: 5px solid black;
+    height: 150px;
+    width:450px;
+}
+.Flex-Wrap{
+    background-color: rgb(138, 139, 232);
+    border:10px solid white;
+    margin:20px;
+}
+        .No-Wrap{
+            display: flex;
+            flex-wrap:nowrap;
+            
+        }
+        .Wrap{
+            display: flex;
+            flex-wrap:wrap;
+        }
+        .Wrap-Reverse{
+            display: flex;
+            flex-wrap: wrap-reverse;
+        }
+.Align-Self{
+    background-color: peru;
+    border:10px solid white;
+    margin:20px;
+}
+.FLEX-DIRECTION1{
+    display: flex;
+    flex-direction: column;
+}
+.boxes-self{
+    margin:10px;
+    background-color: gold;
+    border: 5px solid black;
+    height: 200px;
+    width:350px;
+    align-self: flex-end;
+}
